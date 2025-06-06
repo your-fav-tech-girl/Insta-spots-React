@@ -5,18 +5,20 @@ import pic3 from "../assets/images/pic3.png"
 import pic4 from "../assets/images/pic4.png"
 import pic5 from "../assets/images/pic5.png"
 import pic6 from "../assets/images/pic6.png"
-import LikeIcon from "../assets/images/Like Icon.png"
+import LikeButton from "./LikeButton"
+
 
 function Content() {
-  return (
+    return (
+
     <div className='ContentContainer'>
+
     <div id="ContentTitle">
 
    <img src={pic1} className="Content-Image" alt="content pic1" />
    <div className="Content-Title">
     <p>Vals Thorens</p>
-    
-    <img src={LikeIcon} className="LikeIcon" alt="like icon" />
+    <LikeButton />
     </div>
   </div>
 
@@ -24,7 +26,7 @@ function Content() {
     <img src={pic2} className="Content-Image" alt="content pic2" />
     <div className="Content-Title">
     <p>Restaurant Terrace</p>
-    <img src={LikeIcon} className="LikeIcon" alt="like icon" />
+     <LikeButton />
     </div>
   </div>
 
@@ -32,28 +34,33 @@ function Content() {
     <img src={pic3} className="Content-Image" alt="content pic3" />
     <div className="Content-Title">
     <p>An Outdoor cafe</p>
-    <img src={LikeIcon} className="LikeIcon" alt="like icon" /></div>
+     <LikeButton />
+  </div>
   </div>
 
     <div id="ContentTitle">
     <img src={pic4} className="Content-Image" alt="content pic4" />
     <div className="Content-Title">
     <p>A very long bridge, over the forest</p>
-    <img src={LikeIcon} className="LikeIcon" alt="like icon" /></div>
+    <LikeButton />
+  </div>
   </div>
 
     <div id="ContentTitle">
     <img src={pic5} className="Content-Image" alt="content pic5" />
     <div className="Content-Title">
     <p>Tunnel with morning light</p>
-    <img src={LikeIcon} className="LikeIcon" alt="like icon" /></div>
+    <LikeButton />
   </div>
+  </div>
+
     <div id="ContentTitle">
     <img src={pic6} className="Content-Image" alt="content pic6" />
     <div className="Content-Title">
     <p>Mountain house</p>
-    <img src={LikeIcon} className="LikeIcon" alt="like icon" /></div>
+     <LikeButton />
     </div>
+   </div>
 
   </div>
 
